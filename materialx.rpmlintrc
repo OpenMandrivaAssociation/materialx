@@ -1,0 +1,4 @@
+# The data folder shader libraries come with source headers
+# these are also required in the python module to provide it with its own library
+addFilter("W: devel-file-in-non-devel-package")
+
