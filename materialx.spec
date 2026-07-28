@@ -12,7 +12,7 @@
 
 Name:		materialx
 Version:	1.39.5
-Release:	1
+Release:	2
 Summary:	Open standard for the exchange of content across apps & renderers
 License:	Apache-2.0
 Group:		System/Libraries
