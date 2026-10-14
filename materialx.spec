@@ -12,7 +12,7 @@
 
 Name:		materialx
 Version:	1.39.5
-Release:	2
+Release:	3
 Summary:	Open standard for the exchange of content across apps & renderers
 License:	Apache-2.0
 Group:		System/Libraries
@@ -68,7 +68,7 @@ BuildRequires:	OpenImageIO
 BuildRequires:	pkgconfig(OpenImageIO)
 %endif
 %if %{with python}
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(pybind11)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(scikit-build-core)
